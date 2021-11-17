@@ -29,6 +29,7 @@ namespace cs_vs_2019_Demo888
                 endpoints.MapGet("/", async context =>
                 {
                     await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Welcome");
                 });
             });
         }
